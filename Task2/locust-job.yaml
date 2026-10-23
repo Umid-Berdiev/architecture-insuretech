@@ -1,0 +1,55 @@
+# Runs Locust inside the cluster against the Service, so the load is spread across all pods by
+# kube-proxy and does not pass through the single `minikube service` tunnel of the docker driver.
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: locustfile
+  namespace: insuretech
+data:
+  locustfile.py: |
+    from locust import HttpUser, between, task
+
+
+    class WebsiteUser(HttpUser):
+        wait_time = between(1, 5)
+
+        @task
+        def index(self):
+            self.client.get("/")
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: locust
+  namespace: insuretech
+spec:
+  backoffLimit: 0
+  template:
+    metadata:
+      labels:
+        app: locust
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: locust
+          image: locustio/locust:2.34.0
+          args:
+            - --headless
+            - --host=http://scaletestapp.insuretech.svc.cluster.local:8080
+            - --users=3000
+            - --spawn-rate=30
+            - --run-time=12m
+            - --only-summary
+            - --csv=/tmp/locust
+          volumeMounts:
+            - name: locustfile
+              mountPath: /mnt/locust
+          workingDir: /mnt/locust
+          resources:
+            requests:
+              cpu: 500m
+              memory: 256Mi
+      volumes:
+        - name: locustfile
+          configMap:
+            name: locustfile

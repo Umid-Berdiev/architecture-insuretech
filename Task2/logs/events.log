@@ -1,0 +1,129 @@
+LAST SEEN   TYPE      REASON                         OBJECT                                 MESSAGE
+44m         Normal    ScalingReplicaSet              deployment/scaletestapp                Scaled up replica set scaletestapp-67c98fd94d from 0 to 1
+44m         Normal    SuccessfulCreate               replicaset/scaletestapp-67c98fd94d     Created pod: scaletestapp-67c98fd94d-txm6s
+44m         Normal    Scheduled                      pod/scaletestapp-67c98fd94d-txm6s      Successfully assigned insuretech/scaletestapp-67c98fd94d-txm6s to minikube
+41m         Warning   Failed                         pod/scaletestapp-67c98fd94d-txm6s      Error: ImagePullBackOff
+41m         Normal    BackOff                        pod/scaletestapp-67c98fd94d-txm6s      Back-off pulling image "ghcr.io/yandex-practicum/scaletestapp:latest"
+41m         Warning   Failed                         pod/scaletestapp-67c98fd94d-txm6s      Error: ErrImagePull
+41m         Warning   Failed                         pod/scaletestapp-67c98fd94d-txm6s      Failed to pull image "ghcr.io/yandex-practicum/scaletestapp:latest": Error response from daemon: Get "https://ghcr.io/v2/": tls: failed to verify certificate: x509: certificate signed by unknown authority
+41m         Normal    Pulling                        pod/scaletestapp-67c98fd94d-txm6s      Pulling image "ghcr.io/yandex-practicum/scaletestapp:latest"
+41m         Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/scaletestapp   invalid metrics (1 invalid out of 1), first error is: failed to get memory resource metric value: failed to get memory utilization: unable to get metrics for resource memory: unable to fetch metrics from resource metrics API: the server is currently unable to handle the request (get pods.metrics.k8s.io)
+41m         Normal    Scheduled                      pod/scaletestapp-67c98fd94d-bx4dg      Successfully assigned insuretech/scaletestapp-67c98fd94d-bx4dg to minikube
+41m         Normal    SuccessfulCreate               replicaset/scaletestapp-67c98fd94d     Created pod: scaletestapp-67c98fd94d-bx4dg
+40m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/scaletestapp   failed to get memory utilization: unable to get metrics for resource memory: unable to fetch metrics from resource metrics API: the server is currently unable to handle the request (get pods.metrics.k8s.io)
+40m         Normal    ScalingReplicaSet              deployment/scaletestapp                Scaled up replica set scaletestapp-57b55d7594 from 0 to 1
+40m         Normal    Scheduled                      pod/scaletestapp-57b55d7594-hf6sd      Successfully assigned insuretech/scaletestapp-57b55d7594-hf6sd to minikube
+40m         Normal    SuccessfulCreate               replicaset/scaletestapp-57b55d7594     Created pod: scaletestapp-57b55d7594-hf6sd
+40m         Warning   Unhealthy                      pod/scaletestapp-57b55d7594-hf6sd      Readiness probe failed: Get "http://10.244.0.9:8080/": read tcp 10.244.0.1:51270->10.244.0.9:8080: read: connection reset by peer
+40m         Warning   Unhealthy                      pod/scaletestapp-57b55d7594-hf6sd      Liveness probe failed: Get "http://10.244.0.9:8080/": read tcp 10.244.0.1:43744->10.244.0.9:8080: read: connection reset by peer
+40m         Warning   Unhealthy                      pod/scaletestapp-57b55d7594-hf6sd      Readiness probe failed: Get "http://10.244.0.9:8080/": dial tcp 10.244.0.9:8080: connect: connection refused
+39m         Normal    Pulling                        pod/scaletestapp-67c98fd94d-bx4dg      Pulling image "ghcr.io/yandex-practicum/scaletestapp:latest"
+39m         Normal    Pulling                        pod/scaletestapp-57b55d7594-hf6sd      Pulling image "ghcr.io/yandex-practicum/scaletestapp:latest"
+39m         Warning   Failed                         pod/scaletestapp-67c98fd94d-bx4dg      Error: ErrImagePull
+39m         Warning   Failed                         pod/scaletestapp-67c98fd94d-bx4dg      Failed to pull image "ghcr.io/yandex-practicum/scaletestapp:latest": Error response from daemon: Get "https://ghcr.io/v2/": tls: failed to verify certificate: x509: certificate signed by unknown authority
+39m         Warning   Failed                         pod/scaletestapp-57b55d7594-hf6sd      Error: ErrImagePull
+39m         Warning   Failed                         pod/scaletestapp-57b55d7594-hf6sd      Failed to pull image "ghcr.io/yandex-practicum/scaletestapp:latest": Error response from daemon: Get "https://ghcr.io/v2/": tls: failed to verify certificate: x509: certificate signed by unknown authority
+39m         Normal    Started                        pod/scaletestapp-57b55d7594-hf6sd      Container started
+39m         Normal    Created                        pod/scaletestapp-57b55d7594-hf6sd      Container created
+39m         Normal    Pulled                         pod/scaletestapp-57b55d7594-hf6sd      Container image "ghcr.io/yandex-practicum/scaletestapp:latest" already present on machine and can be accessed by the pod
+39m         Warning   Unhealthy                      pod/scaletestapp-57b55d7594-hf6sd      Readiness probe failed: Get "http://10.244.0.9:8080/": read tcp 10.244.0.1:49690->10.244.0.9:8080: read: connection reset by peer
+39m         Warning   BackOff                        pod/scaletestapp-57b55d7594-hf6sd      Back-off restarting failed container scaletestapp in pod scaletestapp-57b55d7594-hf6sd_insuretech(c54950ef-f30d-417f-b85e-146cb28fb3ce)
+38m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/scaletestapp   failed to get memory utilization: unable to get metrics for resource memory: no metrics returned from resource metrics API
+38m         Normal    BackOff                        pod/scaletestapp-67c98fd94d-bx4dg      Back-off pulling image "ghcr.io/yandex-practicum/scaletestapp:latest"
+38m         Warning   Failed                         pod/scaletestapp-67c98fd94d-bx4dg      Error: ImagePullBackOff
+38m         Normal    ScalingReplicaSet              deployment/scaletestapp                Scaled up replica set scaletestapp-859db5fdc4 from 0 to 1
+38m         Normal    SuccessfulCreate               replicaset/scaletestapp-859db5fdc4     Created pod: scaletestapp-859db5fdc4-fztgj
+38m         Normal    SuccessfulDelete               replicaset/scaletestapp-67c98fd94d     Deleted pod: scaletestapp-67c98fd94d-bx4dg
+38m         Normal    Scheduled                      pod/scaletestapp-859db5fdc4-fztgj      Successfully assigned insuretech/scaletestapp-859db5fdc4-fztgj to minikube
+38m         Normal    ScalingReplicaSet              deployment/scaletestapp                Scaled down replica set scaletestapp-67c98fd94d from 1 to 0
+38m         Normal    ScalingReplicaSet              deployment/scaletestapp                Scaled down replica set scaletestapp-57b55d7594 from 1 to 0
+38m         Normal    SuccessfulDelete               replicaset/scaletestapp-57b55d7594     Deleted pod: scaletestapp-57b55d7594-hf6sd
+33m         Normal    SuccessfulRescale              horizontalpodautoscaler/scaletestapp   New size: 2; reason: memory resource utilization (percentage of request) above target
+33m         Normal    ScalingReplicaSet              deployment/scaletestapp                Scaled up replica set scaletestapp-859db5fdc4 from 1 to 2
+33m         Normal    SuccessfulCreate               replicaset/scaletestapp-859db5fdc4     Created pod: scaletestapp-859db5fdc4-p9lwv
+33m         Normal    Scheduled                      pod/scaletestapp-859db5fdc4-p9lwv      Successfully assigned insuretech/scaletestapp-859db5fdc4-p9lwv to minikube
+27m         Normal    Scheduled                      pod/locust-n4cwg                       Successfully assigned insuretech/locust-n4cwg to minikube
+27m         Normal    Pulling                        pod/locust-n4cwg                       Pulling image "locustio/locust:2.34.0"
+27m         Normal    SuccessfulCreate               job/locust                             Created pod: locust-n4cwg
+27m         Normal    Pulled                         pod/locust-n4cwg                       Successfully pulled image "locustio/locust:2.34.0" in 14.131s (14.131s including waiting). Image size: 299946185 bytes.
+27m         Normal    Created                        pod/locust-n4cwg                       Container created
+27m         Normal    Started                        pod/locust-n4cwg                       Container started
+27m         Normal    Scheduled                      pod/scaletestapp-859db5fdc4-klr9c      Successfully assigned insuretech/scaletestapp-859db5fdc4-klr9c to minikube
+27m         Normal    SuccessfulCreate               replicaset/scaletestapp-859db5fdc4     Created pod: scaletestapp-859db5fdc4-klr9c
+27m         Normal    SuccessfulRescale              horizontalpodautoscaler/scaletestapp   New size: 3; reason: memory resource utilization (percentage of request) above target
+27m         Normal    ScalingReplicaSet              deployment/scaletestapp                Scaled up replica set scaletestapp-859db5fdc4 from 2 to 3
+26m         Normal    Created                        pod/scaletestapp-859db5fdc4-fztgj      Container created
+26m         Normal    Started                        pod/scaletestapp-859db5fdc4-fztgj      Container started
+26m         Normal    Pulled                         pod/scaletestapp-859db5fdc4-fztgj      Container image "scaletestapp:local" already present on machine and can be accessed by the pod
+26m         Normal    Started                        pod/scaletestapp-859db5fdc4-hnlv7      Container started
+26m         Normal    Created                        pod/scaletestapp-859db5fdc4-9fn4p      Container created
+26m         Normal    Pulled                         pod/scaletestapp-859db5fdc4-9fn4p      Container image "scaletestapp:local" already present on machine and can be accessed by the pod
+26m         Normal    ScalingReplicaSet              deployment/scaletestapp                Scaled up replica set scaletestapp-859db5fdc4 from 3 to 5
+26m         Normal    SuccessfulRescale              horizontalpodautoscaler/scaletestapp   New size: 5; reason: memory resource utilization (percentage of request) above target
+26m         Normal    Pulled                         pod/scaletestapp-859db5fdc4-p9lwv      Container image "scaletestapp:local" already present on machine and can be accessed by the pod
+26m         Normal    Created                        pod/scaletestapp-859db5fdc4-p9lwv      Container created
+26m         Normal    Started                        pod/scaletestapp-859db5fdc4-p9lwv      Container started
+26m         Warning   Unhealthy                      pod/scaletestapp-859db5fdc4-p9lwv      Liveness probe failed: Get "http://10.244.0.12:8080/": dial tcp 10.244.0.12:8080: connect: connection refused
+26m         Normal    SuccessfulCreate               replicaset/scaletestapp-859db5fdc4     Created pod: scaletestapp-859db5fdc4-9fn4p
+26m         Normal    Created                        pod/scaletestapp-859db5fdc4-hnlv7      Container created
+26m         Normal    Pulled                         pod/scaletestapp-859db5fdc4-hnlv7      Container image "scaletestapp:local" already present on machine and can be accessed by the pod
+26m         Normal    Scheduled                      pod/scaletestapp-859db5fdc4-hnlv7      Successfully assigned insuretech/scaletestapp-859db5fdc4-hnlv7 to minikube
+26m         Normal    Started                        pod/scaletestapp-859db5fdc4-9fn4p      Container started
+26m         Normal    Scheduled                      pod/scaletestapp-859db5fdc4-9fn4p      Successfully assigned insuretech/scaletestapp-859db5fdc4-9fn4p to minikube
+26m         Normal    SuccessfulCreate               replicaset/scaletestapp-859db5fdc4     Created pod: scaletestapp-859db5fdc4-hnlv7
+26m         Normal    Pulled                         pod/scaletestapp-859db5fdc4-klr9c      Container image "scaletestapp:local" already present on machine and can be accessed by the pod
+26m         Normal    Started                        pod/scaletestapp-859db5fdc4-klr9c      Container started
+26m         Normal    Created                        pod/scaletestapp-859db5fdc4-klr9c      Container created
+25m         Normal    Pulled                         pod/scaletestapp-859db5fdc4-sjd5z      Container image "scaletestapp:local" already present on machine and can be accessed by the pod
+25m         Normal    ScalingReplicaSet              deployment/scaletestapp                Scaled up replica set scaletestapp-859db5fdc4 from 5 to 7
+25m         Normal    Pulled                         pod/scaletestapp-859db5fdc4-4x95l      Container image "scaletestapp:local" already present on machine and can be accessed by the pod
+25m         Normal    Scheduled                      pod/scaletestapp-859db5fdc4-4x95l      Successfully assigned insuretech/scaletestapp-859db5fdc4-4x95l to minikube
+25m         Normal    Created                        pod/scaletestapp-859db5fdc4-sjd5z      Container created
+25m         Normal    Scheduled                      pod/scaletestapp-859db5fdc4-sjd5z      Successfully assigned insuretech/scaletestapp-859db5fdc4-sjd5z to minikube
+25m         Normal    Created                        pod/scaletestapp-859db5fdc4-4x95l      Container created
+25m         Normal    SuccessfulRescale              horizontalpodautoscaler/scaletestapp   New size: 7; reason: memory resource utilization (percentage of request) above target
+25m         Normal    Started                        pod/scaletestapp-859db5fdc4-sjd5z      Container started
+25m         Normal    SuccessfulCreate               replicaset/scaletestapp-859db5fdc4     Created pod: scaletestapp-859db5fdc4-sjd5z
+25m         Normal    SuccessfulCreate               replicaset/scaletestapp-859db5fdc4     Created pod: scaletestapp-859db5fdc4-4x95l
+25m         Normal    Started                        pod/scaletestapp-859db5fdc4-4x95l      Container started
+24m         Normal    Created                        pod/scaletestapp-859db5fdc4-vq8mg      Container created
+24m         Normal    SuccessfulCreate               replicaset/scaletestapp-859db5fdc4     Created pod: scaletestapp-859db5fdc4-zkwnx
+24m         Normal    Scheduled                      pod/scaletestapp-859db5fdc4-zkwnx      Successfully assigned insuretech/scaletestapp-859db5fdc4-zkwnx to minikube
+24m         Normal    SuccessfulRescale              horizontalpodautoscaler/scaletestapp   New size: 9; reason: memory resource utilization (percentage of request) above target
+24m         Normal    SuccessfulCreate               replicaset/scaletestapp-859db5fdc4     Created pod: scaletestapp-859db5fdc4-vq8mg
+24m         Normal    Pulled                         pod/scaletestapp-859db5fdc4-vq8mg      Container image "scaletestapp:local" already present on machine and can be accessed by the pod
+24m         Normal    Started                        pod/scaletestapp-859db5fdc4-vq8mg      Container started
+24m         Normal    ScalingReplicaSet              deployment/scaletestapp                (combined from similar events): Scaled up replica set scaletestapp-859db5fdc4 from 7 to 9
+24m         Normal    Scheduled                      pod/scaletestapp-859db5fdc4-vq8mg      Successfully assigned insuretech/scaletestapp-859db5fdc4-vq8mg to minikube
+24m         Normal    Started                        pod/scaletestapp-859db5fdc4-zkwnx      Container started
+24m         Normal    Created                        pod/scaletestapp-859db5fdc4-zkwnx      Container created
+24m         Normal    Pulled                         pod/scaletestapp-859db5fdc4-zkwnx      Container image "scaletestapp:local" already present on machine and can be accessed by the pod
+15m         Warning   BackoffLimitExceeded           job/locust                             Job has reached the specified backoff limit
+9m25s       Normal    SuccessfulDelete               replicaset/scaletestapp-859db5fdc4     Deleted pod: scaletestapp-859db5fdc4-fztgj
+9m25s       Normal    ScalingReplicaSet              deployment/scaletestapp                Scaled down replica set scaletestapp-859db5fdc4 from 9 to 8
+9m25s       Normal    Killing                        pod/scaletestapp-859db5fdc4-fztgj      Stopping container scaletestapp
+9m25s       Normal    SuccessfulRescale              horizontalpodautoscaler/scaletestapp   New size: 8; reason: All metrics below target
+7m25s       Normal    Killing                        pod/scaletestapp-859db5fdc4-sjd5z      Stopping container scaletestapp
+7m25s       Normal    SuccessfulDelete               replicaset/scaletestapp-859db5fdc4     Deleted pod: scaletestapp-859db5fdc4-sjd5z
+7m25s       Normal    ScalingReplicaSet              deployment/scaletestapp                Scaled down replica set scaletestapp-859db5fdc4 from 8 to 7
+7m25s       Normal    SuccessfulRescale              horizontalpodautoscaler/scaletestapp   New size: 7; reason: All metrics below target
+6m55s       Normal    ScalingReplicaSet              deployment/scaletestapp                Scaled down replica set scaletestapp-859db5fdc4 from 7 to 6
+6m55s       Normal    SuccessfulRescale              horizontalpodautoscaler/scaletestapp   New size: 6; reason: All metrics below target
+6m55s       Normal    Killing                        pod/scaletestapp-859db5fdc4-4x95l      Stopping container scaletestapp
+6m55s       Normal    SuccessfulDelete               replicaset/scaletestapp-859db5fdc4     Deleted pod: scaletestapp-859db5fdc4-4x95l
+5m25s       Normal    ScalingReplicaSet              deployment/scaletestapp                Scaled down replica set scaletestapp-859db5fdc4 from 6 to 5
+5m25s       Normal    SuccessfulRescale              horizontalpodautoscaler/scaletestapp   New size: 5; reason: All metrics below target
+5m25s       Normal    SuccessfulDelete               replicaset/scaletestapp-859db5fdc4     Deleted pod: scaletestapp-859db5fdc4-p9lwv
+5m25s       Normal    Killing                        pod/scaletestapp-859db5fdc4-p9lwv      Stopping container scaletestapp
+3m25s       Normal    Killing                        pod/scaletestapp-859db5fdc4-hnlv7      Stopping container scaletestapp
+3m25s       Normal    SuccessfulDelete               replicaset/scaletestapp-859db5fdc4     Deleted pod: scaletestapp-859db5fdc4-hnlv7
+3m25s       Normal    SuccessfulRescale              horizontalpodautoscaler/scaletestapp   New size: 4; reason: All metrics below target
+3m25s       Normal    ScalingReplicaSet              deployment/scaletestapp                Scaled down replica set scaletestapp-859db5fdc4 from 5 to 4
+85s         Normal    Killing                        pod/scaletestapp-859db5fdc4-9fn4p      Stopping container scaletestapp
+85s         Normal    SuccessfulDelete               replicaset/scaletestapp-859db5fdc4     Deleted pod: scaletestapp-859db5fdc4-9fn4p
+85s         Normal    SuccessfulRescale              horizontalpodautoscaler/scaletestapp   New size: 3; reason: All metrics below target
+85s         Normal    ScalingReplicaSet              deployment/scaletestapp                Scaled down replica set scaletestapp-859db5fdc4 from 4 to 3
+25s         Normal    Killing                        pod/scaletestapp-859db5fdc4-vq8mg      Stopping container scaletestapp
+25s         Normal    SuccessfulDelete               replicaset/scaletestapp-859db5fdc4     Deleted pod: scaletestapp-859db5fdc4-vq8mg
+25s         Normal    SuccessfulRescale              horizontalpodautoscaler/scaletestapp   New size: 2; reason: All metrics below target
+25s         Normal    ScalingReplicaSet              deployment/scaletestapp                Scaled down replica set scaletestapp-859db5fdc4 from 3 to 2

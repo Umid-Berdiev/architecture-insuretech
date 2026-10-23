@@ -1,0 +1,4 @@
+NAME                            READY   STATUS    RESTARTS      AGE   IP            NODE       NOMINATED NODE   READINESS GATES
+locust-n4cwg                    0/1     Error     0             27m   10.244.0.13   minikube   <none>           <none>
+scaletestapp-859db5fdc4-klr9c   1/1     Running   1 (26m ago)   27m   10.244.0.14   minikube   <none>           <none>
+scaletestapp-859db5fdc4-zkwnx   1/1     Running   0             24m   10.244.0.19   minikube   <none>           <none>

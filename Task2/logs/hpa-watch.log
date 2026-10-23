@@ -1,0 +1,49 @@
+2026-10-23T11:49:33Z load test start (locust: 1500 users, spawn rate 50/s, 8 min)
+11:49:33 NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+11:49:33 scaletestapp   Deployment/scaletestapp   memory: 23%/80%   1         10        1          9m41s
+11:49:52 scaletestapp   Deployment/scaletestapp   memory: 79%/80%   1         10        1          10m
+11:50:53 scaletestapp   Deployment/scaletestapp   memory: 116%/80%   1         10        1          11m
+11:51:08 scaletestapp   Deployment/scaletestapp   memory: 116%/80%   1         10        2          11m
+11:51:53 scaletestapp   Deployment/scaletestapp   memory: 70%/80%    1         10        2          12m
+11:52:33 second locust started: +3000 users, spawn 100/s, 6 min
+11:52:53 scaletestapp   Deployment/scaletestapp   memory: 70%/80%    1         10        2          13m
+11:53:53 scaletestapp   Deployment/scaletestapp   memory: 70%/80%    1         10        2          14m
+11:54:53 scaletestapp   Deployment/scaletestapp   memory: 69%/80%    1         10        2          15m
+11:55:53 scaletestapp   Deployment/scaletestapp   memory: 76%/80%    1         10        2          16m
+11:56:13 host locust runs stopped: ~97% of requests failed through the minikube service tunnel (docker driver on macOS); switching to an in-cluster Locust job
+12:01:38 watcher restarted (previous watcher process died at ~11:56; see hpa-describe.log for the full scaling event history)
+12:01:38 NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+12:01:38 scaletestapp   Deployment/scaletestapp   memory: 80%/80%   1         10        9          21m
+12:01:53 scaletestapp   Deployment/scaletestapp   memory: 81%/80%   1         10        9          22m
+12:02:53 scaletestapp   Deployment/scaletestapp   memory: 79%/80%   1         10        9          23m
+12:03:53 scaletestapp   Deployment/scaletestapp   memory: 79%/80%   1         10        9          24m
+12:04:53 scaletestapp   Deployment/scaletestapp   memory: 80%/80%   1         10        9          25m
+12:05:53 scaletestapp   Deployment/scaletestapp   memory: 80%/80%   1         10        9          26m
+12:06:53 scaletestapp   Deployment/scaletestapp   memory: 80%/80%   1         10        9          27m
+12:07:53 scaletestapp   Deployment/scaletestapp   memory: 81%/80%   1         10        9          28m
+12:08:53 scaletestapp   Deployment/scaletestapp   memory: 74%/80%   1         10        9          29m
+12:09:53 scaletestapp   Deployment/scaletestapp   memory: 77%/80%   1         10        9          30m
+12:10:53 scaletestapp   Deployment/scaletestapp   memory: 74%/80%   1         10        9          31m
+12:11:53 scaletestapp   Deployment/scaletestapp   memory: 74%/80%   1         10        9          32m
+12:12:53 scaletestapp   Deployment/scaletestapp   memory: 66%/80%   1         10        9          33m
+12:13:54 scaletestapp   Deployment/scaletestapp   memory: 67%/80%   1         10        9          34m
+12:14:39 scaletestapp   Deployment/scaletestapp   memory: 67%/80%   1         10        9          34m
+12:14:54 scaletestapp   Deployment/scaletestapp   memory: 54%/80%   1         10        8          35m
+12:15:54 scaletestapp   Deployment/scaletestapp   memory: 53%/80%   1         10        8          36m
+12:16:39 scaletestapp   Deployment/scaletestapp   memory: 53%/80%   1         10        8          36m
+12:16:54 scaletestapp   Deployment/scaletestapp   memory: 56%/80%   1         10        7          37m
+12:17:09 scaletestapp   Deployment/scaletestapp   memory: 56%/80%   1         10        7          37m
+12:17:24 scaletestapp   Deployment/scaletestapp   memory: 62%/80%   1         10        6          37m
+12:17:54 scaletestapp   Deployment/scaletestapp   memory: 62%/80%   1         10        6          38m
+12:18:39 scaletestapp   Deployment/scaletestapp   memory: 62%/80%   1         10        6          38m
+12:18:54 scaletestapp   Deployment/scaletestapp   memory: 59%/80%   1         10        5          39m
+12:19:54 scaletestapp   Deployment/scaletestapp   memory: 59%/80%   1         10        5          40m
+12:20:39 scaletestapp   Deployment/scaletestapp   memory: 59%/80%   1         10        5          40m
+12:20:54 scaletestapp   Deployment/scaletestapp   memory: 41%/80%   1         10        4          41m
+12:21:54 scaletestapp   Deployment/scaletestapp   memory: 40%/80%   1         10        4          42m
+12:22:39 scaletestapp   Deployment/scaletestapp   memory: 40%/80%   1         10        4          42m
+12:22:54 scaletestapp   Deployment/scaletestapp   memory: 43%/80%   1         10        3          43m
+12:23:39 scaletestapp   Deployment/scaletestapp   memory: 43%/80%   1         10        3          43m
+12:23:54 scaletestapp   Deployment/scaletestapp   memory: 51%/80%   1         10        2          44m
+NAME           REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp   Deployment/scaletestapp   memory: 51%/80%   1         10        2          44m

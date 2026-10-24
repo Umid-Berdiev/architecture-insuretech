@@ -19,3 +19,19 @@ aggregator database and the outbox relay, and draws event-streaming relationship
 ```bash
 python3 tools/diagram/gen_task3.py "Task3/InsureTech_C4_container-diagram_to-be.drawio"
 ```
+
+`gen_task4.py` builds on the Task 3 result: it adds `osago-aggregator` with its database, Managed
+Redis, the WebSocket stream to the web app, the OSAGO Kafka topics and the resilience-pattern
+markers (TimeOut, Retry, Rate Limiter, Circuit Breaker) drawn with the course notation from
+`resilience-patterns-notation.drawio.xml` (downloaded unchanged).
+
+```bash
+python3 tools/diagram/gen_task4.py "Task3/InsureTech_C4_container-diagram_to-be.drawio" "Task4/InsureTech_C4_container-diagram_to-be.drawio"
+```
+
+## Rendering to PNG
+
+There is no draw.io CLI on this machine, so the PNGs are produced by opening the diagram in
+`https://viewer.diagrams.net/?lightbox=1` (payload injected as a compressed `#R…` hash), exporting
+the rendered SVG, inlining it into an HTML page and taking a screenshot with headless Google Chrome
+(`--headless=new --window-size=W,H --force-device-scale-factor=1.5 --screenshot=`).

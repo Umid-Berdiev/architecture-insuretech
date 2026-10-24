@@ -1,0 +1,97 @@
+# Example queries for the client-info GraphQL API, one per business scenario.
+# Each query is a single request; the equivalent number of REST calls is given in the comment.
+
+# Life-insurance application in core-app: base card + passport.
+# REST: GET /clients/{id} + GET /clients/{id}/documents (then filtering on the caller side) = 2 calls.
+query LifeInsuranceApplication($clientId: ID!) {
+  client(id: $clientId) {
+    id
+    name
+    birthDate
+    documents(types: [PASSPORT]) {
+      number
+      issueDate
+    }
+    address {
+      postalCode
+      city
+      street
+      building
+      apartment
+    }
+  }
+}
+
+# OSAGO application (Task 4): base card + passport + driver licence + vehicle registration.
+# REST: GET /clients/{id} + GET /clients/{id}/documents = 2 calls, full document list transferred.
+query OsagoApplication($clientId: ID!) {
+  client(id: $clientId) {
+    id
+    name
+    birthDate
+    documents(types: [PASSPORT, DRIVER_LICENSE, VEHICLE_REGISTRATION]) {
+      type
+      number
+      issueDate
+      expiryDate
+    }
+  }
+}
+
+# Family product: client and relatives of the selected kinds.
+# REST: GET /clients/{id} + GET /clients/{id}/relatives = 2 calls.
+query FamilyPolicy($clientId: ID!) {
+  client(id: $clientId) {
+    name
+    relatives(relationTypes: [SPOUSE, CHILD]) {
+      id
+      relationType
+      name
+      age
+    }
+  }
+}
+
+# Personal cabinet header in the web app: only the name and verified contacts.
+# REST: GET /clients/{id} returns the whole card; contacts have no REST resource in v1.
+query CabinetHeader($clientId: ID!) {
+  client(id: $clientId) {
+    name
+    contacts(types: [MOBILE_PHONE, EMAIL]) {
+      type
+      value
+      verified
+    }
+  }
+}
+
+# Settlement register in ins-comp-settlement: names of many clients in one request.
+# REST: N × GET /clients/{id}.
+query SettlementClients($ids: [ID!]!) {
+  clients(ids: $ids) {
+    id
+    name
+  }
+}
+
+# Exact equivalent of the three REST resources together (full card as the REST consumer saw it).
+query FullCardAsInRest($clientId: ID!) {
+  client(id: $clientId) {
+    id
+    name
+    age
+    documents {
+      id
+      type
+      number
+      issueDate
+      expiryDate
+    }
+    relatives {
+      id
+      relationType
+      name
+      age
+    }
+  }
+}

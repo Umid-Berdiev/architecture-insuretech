@@ -1,0 +1,575 @@
+--- 11:49:33
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-fztgj   1m           4Mi             
+--- 11:50:03
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-fztgj   3m           15Mi            
+--- 11:50:33
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-fztgj   3m           15Mi            
+--- 11:51:03
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-fztgj   8m           23Mi            
+--- 11:51:33
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-fztgj   8m           23Mi            
+--- 11:52:03
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-fztgj   1m           23Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           4Mi             
+--- 11:52:33
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-fztgj   1m           23Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           4Mi             
+--- 11:53:03
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-fztgj   1m           23Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           4Mi             
+--- 11:53:33
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-fztgj   1m           23Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           4Mi             
+--- 11:54:04
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-fztgj   1m           23Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           4Mi             
+--- 11:54:34
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-fztgj   1m           23Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           4Mi             
+--- 11:55:04
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-fztgj   1m           23Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           4Mi             
+--- 11:55:34
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-fztgj   1m           23Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           4Mi             
+--- 11:56:04
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-fztgj   1m           23Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           7Mi             
+--- 11:56:34
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-fztgj   1m           23Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           7Mi             
+--- 11:57:04
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    142m         49Mi            
+scaletestapp-859db5fdc4-fztgj   4m           26Mi            
+scaletestapp-859db5fdc4-p9lwv   4m           11Mi            
+--- 11:57:34
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    142m         49Mi            
+scaletestapp-859db5fdc4-fztgj   4m           26Mi            
+scaletestapp-859db5fdc4-p9lwv   4m           11Mi            
+--- 11:58:04
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    306m         104Mi           
+scaletestapp-859db5fdc4-fztgj   28m          28Mi            
+scaletestapp-859db5fdc4-klr9c   13m          18Mi            
+scaletestapp-859db5fdc4-p9lwv   29m          28Mi            
+--- 11:58:34
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    306m         104Mi           
+scaletestapp-859db5fdc4-fztgj   28m          28Mi            
+scaletestapp-859db5fdc4-klr9c   13m          18Mi            
+scaletestapp-859db5fdc4-p9lwv   29m          28Mi            
+--- 11:59:04
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    424m         140Mi           
+scaletestapp-859db5fdc4-9fn4p   21m          26Mi            
+scaletestapp-859db5fdc4-fztgj   21m          26Mi            
+scaletestapp-859db5fdc4-hnlv7   20m          24Mi            
+scaletestapp-859db5fdc4-klr9c   9m           14Mi            
+scaletestapp-859db5fdc4-p9lwv   20m          27Mi            
+--- 11:59:34
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    424m         140Mi           
+scaletestapp-859db5fdc4-9fn4p   21m          26Mi            
+scaletestapp-859db5fdc4-fztgj   21m          26Mi            
+scaletestapp-859db5fdc4-hnlv7   20m          24Mi            
+scaletestapp-859db5fdc4-klr9c   9m           14Mi            
+scaletestapp-859db5fdc4-p9lwv   20m          27Mi            
+--- 12:00:04
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    426m         140Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   22m          28Mi            
+scaletestapp-859db5fdc4-fztgj   23m          27Mi            
+scaletestapp-859db5fdc4-hnlv7   20m          25Mi            
+scaletestapp-859db5fdc4-klr9c   9m           14Mi            
+scaletestapp-859db5fdc4-p9lwv   21m          27Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+--- 12:00:34
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    426m         140Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   22m          28Mi            
+scaletestapp-859db5fdc4-fztgj   23m          27Mi            
+scaletestapp-859db5fdc4-hnlv7   20m          25Mi            
+scaletestapp-859db5fdc4-klr9c   9m           14Mi            
+scaletestapp-859db5fdc4-p9lwv   21m          27Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+--- 12:01:04
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    423m         141Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   21m          29Mi            
+scaletestapp-859db5fdc4-fztgj   22m          28Mi            
+scaletestapp-859db5fdc4-hnlv7   20m          25Mi            
+scaletestapp-859db5fdc4-klr9c   9m           14Mi            
+scaletestapp-859db5fdc4-p9lwv   20m          27Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:01:34
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    423m         141Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   21m          29Mi            
+scaletestapp-859db5fdc4-fztgj   22m          28Mi            
+scaletestapp-859db5fdc4-hnlv7   20m          25Mi            
+scaletestapp-859db5fdc4-klr9c   9m           14Mi            
+scaletestapp-859db5fdc4-p9lwv   20m          27Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:02:04
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    426m         143Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   22m          29Mi            
+scaletestapp-859db5fdc4-fztgj   23m          28Mi            
+scaletestapp-859db5fdc4-hnlv7   21m          26Mi            
+scaletestapp-859db5fdc4-klr9c   9m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   21m          27Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:02:35
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    426m         143Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   22m          29Mi            
+scaletestapp-859db5fdc4-fztgj   23m          28Mi            
+scaletestapp-859db5fdc4-hnlv7   21m          26Mi            
+scaletestapp-859db5fdc4-klr9c   9m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   21m          27Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:03:05
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    416m         160Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   22m          27Mi            
+scaletestapp-859db5fdc4-fztgj   23m          28Mi            
+scaletestapp-859db5fdc4-hnlv7   21m          26Mi            
+scaletestapp-859db5fdc4-klr9c   9m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   21m          27Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:03:35
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    416m         160Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   22m          27Mi            
+scaletestapp-859db5fdc4-fztgj   23m          28Mi            
+scaletestapp-859db5fdc4-hnlv7   21m          26Mi            
+scaletestapp-859db5fdc4-klr9c   9m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   21m          27Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:04:05
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    414m         161Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   22m          27Mi            
+scaletestapp-859db5fdc4-fztgj   23m          28Mi            
+scaletestapp-859db5fdc4-hnlv7   21m          26Mi            
+scaletestapp-859db5fdc4-klr9c   9m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   21m          27Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:04:35
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    414m         161Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   22m          27Mi            
+scaletestapp-859db5fdc4-fztgj   23m          28Mi            
+scaletestapp-859db5fdc4-hnlv7   21m          26Mi            
+scaletestapp-859db5fdc4-klr9c   9m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   21m          27Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:05:05
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    420m         161Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   23m          27Mi            
+scaletestapp-859db5fdc4-fztgj   24m          28Mi            
+scaletestapp-859db5fdc4-hnlv7   22m          26Mi            
+scaletestapp-859db5fdc4-klr9c   9m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   22m          27Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:05:35
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    420m         161Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   23m          27Mi            
+scaletestapp-859db5fdc4-fztgj   24m          28Mi            
+scaletestapp-859db5fdc4-hnlv7   22m          26Mi            
+scaletestapp-859db5fdc4-klr9c   9m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   22m          27Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:06:05
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    423m         161Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   24m          27Mi            
+scaletestapp-859db5fdc4-fztgj   25m          29Mi            
+scaletestapp-859db5fdc4-hnlv7   22m          26Mi            
+scaletestapp-859db5fdc4-klr9c   10m          15Mi            
+scaletestapp-859db5fdc4-p9lwv   22m          28Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:06:35
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    423m         161Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   24m          27Mi            
+scaletestapp-859db5fdc4-fztgj   25m          29Mi            
+scaletestapp-859db5fdc4-hnlv7   22m          26Mi            
+scaletestapp-859db5fdc4-klr9c   10m          15Mi            
+scaletestapp-859db5fdc4-p9lwv   22m          28Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:07:05
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    414m         161Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   22m          28Mi            
+scaletestapp-859db5fdc4-fztgj   23m          29Mi            
+scaletestapp-859db5fdc4-hnlv7   21m          26Mi            
+scaletestapp-859db5fdc4-klr9c   9m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   22m          27Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:07:35
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    414m         161Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   22m          28Mi            
+scaletestapp-859db5fdc4-fztgj   23m          29Mi            
+scaletestapp-859db5fdc4-hnlv7   21m          26Mi            
+scaletestapp-859db5fdc4-klr9c   9m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   22m          27Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:08:05
+NAME                            CPU(cores)   MEMORY(bytes)   
+locust-n4cwg                    416m         161Mi           
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   22m          28Mi            
+scaletestapp-859db5fdc4-fztgj   23m          29Mi            
+scaletestapp-859db5fdc4-hnlv7   21m          26Mi            
+scaletestapp-859db5fdc4-klr9c   9m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   21m          27Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:08:35
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   22m          28Mi            
+scaletestapp-859db5fdc4-fztgj   23m          29Mi            
+scaletestapp-859db5fdc4-hnlv7   21m          26Mi            
+scaletestapp-859db5fdc4-klr9c   9m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   21m          27Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:09:05
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   17m          25Mi            
+scaletestapp-859db5fdc4-fztgj   18m          26Mi            
+scaletestapp-859db5fdc4-hnlv7   17m          23Mi            
+scaletestapp-859db5fdc4-klr9c   7m           14Mi            
+scaletestapp-859db5fdc4-p9lwv   17m          25Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:09:35
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   17m          25Mi            
+scaletestapp-859db5fdc4-fztgj   18m          26Mi            
+scaletestapp-859db5fdc4-hnlv7   17m          23Mi            
+scaletestapp-859db5fdc4-klr9c   7m           14Mi            
+scaletestapp-859db5fdc4-p9lwv   17m          25Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           4Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:10:05
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   1m           25Mi            
+scaletestapp-859db5fdc4-fztgj   1m           26Mi            
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           14Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           25Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           6Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:10:36
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   1m           25Mi            
+scaletestapp-859db5fdc4-fztgj   1m           26Mi            
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           14Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           25Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           6Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:11:06
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   1m           28Mi            
+scaletestapp-859db5fdc4-fztgj   1m           20Mi            
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           21Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           6Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:11:36
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   1m           28Mi            
+scaletestapp-859db5fdc4-fztgj   1m           20Mi            
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           21Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           6Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:12:06
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   1m           28Mi            
+scaletestapp-859db5fdc4-fztgj   1m           20Mi            
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           21Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           6Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:12:36
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   1m           28Mi            
+scaletestapp-859db5fdc4-fztgj   1m           20Mi            
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           21Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           6Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:13:06
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   1m           28Mi            
+scaletestapp-859db5fdc4-fztgj   1m           13Mi            
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           15Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           6Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:13:36
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   1m           28Mi            
+scaletestapp-859db5fdc4-fztgj   1m           13Mi            
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           15Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           6Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:14:06
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   1m           28Mi            
+scaletestapp-859db5fdc4-fztgj   1m           13Mi            
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           15Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           6Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:14:36
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   1m           28Mi            
+scaletestapp-859db5fdc4-fztgj   1m           13Mi            
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           15Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           6Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:15:06
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   1m           7Mi             
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           15Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           7Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:15:36
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   1m           7Mi             
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           15Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           7Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:16:06
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   1m           7Mi             
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           15Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           6Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:16:36
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   1m           7Mi             
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           15Mi            
+scaletestapp-859db5fdc4-sjd5z   1m           6Mi             
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:17:06
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-4x95l   1m           4Mi             
+scaletestapp-859db5fdc4-9fn4p   1m           7Mi             
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           15Mi            
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:17:36
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-9fn4p   1m           7Mi             
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           15Mi            
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:18:07
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-9fn4p   1m           8Mi             
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           15Mi            
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:18:37
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-9fn4p   1m           8Mi             
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-p9lwv   1m           15Mi            
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:19:07
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-9fn4p   1m           7Mi             
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:19:37
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-9fn4p   1m           7Mi             
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:20:07
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-9fn4p   1m           7Mi             
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:20:37
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-9fn4p   1m           7Mi             
+scaletestapp-859db5fdc4-hnlv7   1m           26Mi            
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:21:07
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-9fn4p   1m           7Mi             
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           5Mi             
+--- 12:21:37
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-9fn4p   1m           7Mi             
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           5Mi             
+--- 12:22:07
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-9fn4p   1m           7Mi             
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:22:37
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-9fn4p   1m           7Mi             
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:23:07
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-klr9c   1m           16Mi            
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:23:37
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-klr9c   1m           16Mi            
+scaletestapp-859db5fdc4-vq8mg   1m           4Mi             
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             
+--- 12:24:07
+NAME                            CPU(cores)   MEMORY(bytes)   
+scaletestapp-859db5fdc4-klr9c   1m           15Mi            
+scaletestapp-859db5fdc4-zkwnx   1m           4Mi             

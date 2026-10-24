@@ -1,0 +1,57 @@
+11:49:33 NAME                            READY   STATUS    RESTARTS   AGE
+11:49:33 scaletestapp-859db5fdc4-fztgj   1/1     Running   0          3m46s
+11:50:53 scaletestapp-859db5fdc4-p9lwv   0/1     Pending   0          0s
+11:50:53 scaletestapp-859db5fdc4-p9lwv   0/1     Pending   0          0s
+11:50:53 scaletestapp-859db5fdc4-p9lwv   0/1     ContainerCreating   0          0s
+11:50:54 scaletestapp-859db5fdc4-p9lwv   0/1     Running             0          1s
+11:50:55 scaletestapp-859db5fdc4-p9lwv   1/1     Running             0          2s
+12:01:38 NAME                            READY   STATUS    RESTARTS        AGE
+12:01:38 locust-n4cwg                    1/1     Running   0               5m25s
+12:01:38 scaletestapp-859db5fdc4-4x95l   1/1     Running   0               2m45s
+12:01:38 scaletestapp-859db5fdc4-9fn4p   1/1     Running   0               3m45s
+12:01:38 scaletestapp-859db5fdc4-fztgj   1/1     Running   1 (3m46s ago)   15m
+12:01:38 scaletestapp-859db5fdc4-hnlv7   1/1     Running   0               3m45s
+12:01:38 scaletestapp-859db5fdc4-klr9c   1/1     Running   1 (3m44s ago)   4m45s
+12:01:38 scaletestapp-859db5fdc4-p9lwv   1/1     Running   1 (3m45s ago)   10m
+12:01:38 scaletestapp-859db5fdc4-sjd5z   1/1     Running   0               2m45s
+12:01:38 scaletestapp-859db5fdc4-vq8mg   1/1     Running   0               105s
+12:01:38 scaletestapp-859db5fdc4-zkwnx   1/1     Running   0               105s
+12:08:28 locust-n4cwg                    0/1     Error     0               12m
+12:08:30 locust-n4cwg                    0/1     Error     0               12m
+12:08:30 locust-n4cwg                    0/1     Error     0               12m
+12:14:39 scaletestapp-859db5fdc4-fztgj   1/1     Terminating   1 (16m ago)     28m
+12:14:39 scaletestapp-859db5fdc4-fztgj   1/1     Terminating   1 (16m ago)     28m
+12:14:39 scaletestapp-859db5fdc4-fztgj   0/1     Error         1 (16m ago)     28m
+12:14:39 scaletestapp-859db5fdc4-fztgj   0/1     Error         1 (16m ago)     28m
+12:14:39 scaletestapp-859db5fdc4-fztgj   0/1     Error         1 (16m ago)     28m
+12:16:39 scaletestapp-859db5fdc4-sjd5z   1/1     Terminating   0               17m
+12:16:39 scaletestapp-859db5fdc4-sjd5z   1/1     Terminating   0               17m
+12:16:39 scaletestapp-859db5fdc4-sjd5z   0/1     Error         0               17m
+12:16:40 scaletestapp-859db5fdc4-sjd5z   0/1     Error         0               17m
+12:16:40 scaletestapp-859db5fdc4-sjd5z   0/1     Error         0               17m
+12:17:09 scaletestapp-859db5fdc4-4x95l   1/1     Terminating   0               18m
+12:17:09 scaletestapp-859db5fdc4-4x95l   1/1     Terminating   0               18m
+12:17:09 scaletestapp-859db5fdc4-4x95l   0/1     Error         0               18m
+12:17:09 scaletestapp-859db5fdc4-4x95l   0/1     Error         0               18m
+12:17:09 scaletestapp-859db5fdc4-4x95l   0/1     Error         0               18m
+12:18:39 scaletestapp-859db5fdc4-p9lwv   1/1     Terminating   1 (20m ago)     27m
+12:18:39 scaletestapp-859db5fdc4-p9lwv   1/1     Terminating   1 (20m ago)     27m
+12:18:39 scaletestapp-859db5fdc4-p9lwv   0/1     Error         1               27m
+12:18:40 scaletestapp-859db5fdc4-p9lwv   0/1     Error         1               27m
+12:18:40 scaletestapp-859db5fdc4-p9lwv   0/1     Error         1               27m
+12:18:40 scaletestapp-859db5fdc4-p9lwv   0/1     Error         1               27m
+12:20:39 scaletestapp-859db5fdc4-hnlv7   1/1     Terminating   0               22m
+12:20:39 scaletestapp-859db5fdc4-hnlv7   1/1     Terminating   0               22m
+12:20:39 scaletestapp-859db5fdc4-hnlv7   0/1     Error         0               22m
+12:20:39 scaletestapp-859db5fdc4-hnlv7   0/1     Error         0               22m
+12:20:39 scaletestapp-859db5fdc4-hnlv7   0/1     Error         0               22m
+12:22:39 scaletestapp-859db5fdc4-9fn4p   1/1     Terminating   0               24m
+12:22:39 scaletestapp-859db5fdc4-9fn4p   1/1     Terminating   0               24m
+12:22:39 scaletestapp-859db5fdc4-9fn4p   0/1     Error         0               24m
+12:22:40 scaletestapp-859db5fdc4-9fn4p   0/1     Error         0               24m
+12:22:40 scaletestapp-859db5fdc4-9fn4p   0/1     Error         0               24m
+12:23:39 scaletestapp-859db5fdc4-vq8mg   1/1     Terminating   0               23m
+12:23:39 scaletestapp-859db5fdc4-vq8mg   1/1     Terminating   0               23m
+12:23:39 scaletestapp-859db5fdc4-vq8mg   0/1     Error         0               23m
+12:23:40 scaletestapp-859db5fdc4-vq8mg   0/1     Error         0               23m
+12:23:40 scaletestapp-859db5fdc4-vq8mg   0/1     Error         0               23m

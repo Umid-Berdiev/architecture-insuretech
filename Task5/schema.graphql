@@ -1,0 +1,128 @@
+# GraphQL schema of the client-info service (replaces REST API v1, see README.md).
+#
+# Design rules:
+# - Every field of the Swagger contract keeps its name, so existing consumers map 1:1.
+# - Sub-objects of the client card (documents, relatives, contacts, address) are nested
+#   fields of Client: a consumer selects only the groups it needs in one request.
+# - List fields accept optional filters; lists are short, so there is no pagination.
+# - Only queries are defined: the REST contract exposes read operations only.
+
+"""
+Calendar date in ISO 8601 format, e.g. "2024-05-31". Replaces the untyped date strings
+of the REST contract (issueDate, expiryDate).
+"""
+scalar Date
+
+type Query {
+  """
+  Client card by id. Equivalent of GET /clients/{id}; documents, relatives and the other
+  groups are fetched in the same request only when selected.
+  Returns null when the client does not exist.
+  """
+  client(id: ID!): Client
+
+  """
+  Several clients in one request (batch loading for core-app scenarios that handle
+  many policies at once, e.g. settlement registers). Missing ids are returned as null
+  at the same position.
+  """
+  clients(ids: [ID!]!): [Client]!
+}
+
+"""
+Client of InsureTech. The card is large (up to 500 attributes), therefore it is split into
+groups: the base fields below plus selectable sub-objects.
+"""
+type Client {
+  id: ID!
+  "Full name, as in the REST contract."
+  name: String!
+  "Age in full years, as in the REST contract (derived from birthDate)."
+  age: Int
+  birthDate: Date
+
+  """
+  Documents of the client. Equivalent of GET /clients/{id}/documents.
+  `types` limits the result to the given document types (e.g. only the passport for
+  a life-insurance application, passport + driver licence for OSAGO).
+  """
+  documents(types: [DocumentType!]): [Document!]!
+
+  """
+  Relatives of the client. Equivalent of GET /clients/{id}/relatives.
+  `relationTypes` limits the result to the given relation types.
+  """
+  relatives(relationTypes: [RelationType!]): [Relative!]!
+
+  "Contact channels of the client (phone, e-mail, ...). Not part of the REST contract v1."
+  contacts(types: [ContactType!]): [Contact!]!
+
+  "Registration address. Not part of the REST contract v1."
+  address: Address
+}
+
+type Document {
+  id: ID!
+  "Document type, as in the REST contract (was a free string, now an enum)."
+  type: DocumentType!
+  "Series and number, as in the REST contract."
+  number: String!
+  issueDate: Date
+  "Null for documents without an expiry date."
+  expiryDate: Date
+  "Issuing authority. Not part of the REST contract v1."
+  issuedBy: String
+}
+
+type Relative {
+  id: ID!
+  "Relation to the client, as in the REST contract (was a free string, now an enum)."
+  relationType: RelationType!
+  name: String!
+  age: Int
+  birthDate: Date
+}
+
+type Contact {
+  id: ID!
+  type: ContactType!
+  "Phone number in E.164 or e-mail address, depending on type."
+  value: String!
+  "Whether the contact is confirmed by the client (SMS code, e-mail link)."
+  verified: Boolean!
+}
+
+type Address {
+  postalCode: String
+  country: String!
+  region: String
+  city: String!
+  street: String
+  building: String
+  apartment: String
+}
+
+enum DocumentType {
+  PASSPORT
+  INTERNATIONAL_PASSPORT
+  DRIVER_LICENSE
+  "Vehicle registration certificate (СТС), needed for OSAGO."
+  VEHICLE_REGISTRATION
+  SNILS
+  INN
+  OTHER
+}
+
+enum RelationType {
+  SPOUSE
+  CHILD
+  PARENT
+  SIBLING
+  OTHER
+}
+
+enum ContactType {
+  MOBILE_PHONE
+  HOME_PHONE
+  EMAIL
+}
